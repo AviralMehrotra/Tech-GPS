@@ -85,6 +85,7 @@ footer
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 40px rgb(109, 240, 148);
     box-shadow: inset ;
+    transition: all 1s;
   }
 .profile-pic h3 
 {
