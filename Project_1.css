@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #181717;
+    }
+body > header
+    {
+    background-color: #121212;
+    }
+body h1 {
+    color: #66b933;
+    font-family: 'Odibee Sans', sans-serif;
+    font-weight: 1000 !important;
+    margin-bottom: 5px;
+    margin-top: 20px;  
+    }
+ h3 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    }   
+#main_heading
+    {
+       border: 5px double #66b933;
+       border-radius: 25px;
+       padding-left: 10px;
+    }
+footer
+    {
+       color: #fff;
+    }
+#best_products
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+    margin: 10px;
+    
+}
+.profile-pic .img-box img
+{
+    height: 450px;
+    width: 450px;
+}
+.profile-pic h3 
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+} 
