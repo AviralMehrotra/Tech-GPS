@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@700&display=swap');
+
 * 
 {
     margin: 0;
@@ -12,18 +15,13 @@ body > header
     {
     background-color: #121212;
     }
-body h1 {
+#main_title{
     color: #66b933;
-    font-family: 'Odibee Sans', sans-serif;
+    font-family: 'PT Mono', sans-serif;
     font-weight: 1000 !important;
-    margin-bottom: 5px;
-    margin-top: 20px;  
+    margin: 20px;
+    margin-right: auto;
     }
- h3 {
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    }   
 #main_heading
     {
        border: 5px double #66b933;
@@ -39,6 +37,22 @@ footer
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
+}
+#best
+{
+    color: #66b933;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+#best::after
+{
+    content: '';
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto 5px;
+    margin-top: 10px;
 }
 .row
 {
@@ -61,6 +75,7 @@ footer
 {
     height: 450px;
     width: 450px;
+    border-radius: 100px;
 }
 .profile-pic h3 
 {
