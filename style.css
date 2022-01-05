@@ -80,12 +80,17 @@ footer
     width: 450px;
     margin-bottom: -4px;
     border-radius: 95px ;
+    box-shadow: 0 0 1px rgb(109, 240, 148);
+    box-shadow: inset;
+    transition: ease-in-out 0.5s;
 }
 .profile-pic .img-box img:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 40px rgb(109, 240, 148);
     box-shadow: inset ;
-    transition: all 1s;
+    /* transition: all 1s; */
+    /* transition: ease-out 1s; */
+    transition: ease-in-out 0.5s;;
   }
 .profile-pic h3 
 {
